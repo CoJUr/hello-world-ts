@@ -1,9 +1,6 @@
-console.log("Hello, world!");
+let numbers: number[] = [];
 
-let age: number = 20;
+numbers.forEach(n => n.valueOf)
 
 
-if (age < 50)
-    age += 10
 
-console.log(age);
